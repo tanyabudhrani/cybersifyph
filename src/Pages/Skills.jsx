@@ -24,4 +24,4 @@ const Skills = () => {
   );
 };
 
-export default Partnerships;
+export default Skills;
