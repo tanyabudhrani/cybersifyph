@@ -55,7 +55,7 @@ import dorkingImage from '../assets/projects/dorking.jpg';
 import darkWebImage from '../assets/projects/darkweb.jpg';
 import firstProgImage from '../assets/projects/firstprog.jpg';
 import ttc from "../assets/projects/ttc.png"
-import seven from "../assets/projects/tasura.jpg"
+import seven from "../assets/projects/tasuru.jpg"
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
