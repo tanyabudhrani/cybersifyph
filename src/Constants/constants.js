@@ -253,7 +253,7 @@ const skills = [
   {
     id: 'html',
     title: 'Seven PH',
-    image: '../assets/projects/tasuru.png',
+    image: 'cybersifyph/src/assets/projects/tasuru.png',
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
