@@ -29,7 +29,7 @@ const SkillsCards = () => {
                   fontWeight: "bold",
                 }}
               >
-                {skills.title}
+                {skill.title} {/* Corrected from skills.title */}
               </span>
               <span
                 className="text-center bg-primary-500 text-black rounded-xl text-lg p-4"  // Increased font size
@@ -39,12 +39,12 @@ const SkillsCards = () => {
                   fontSize: "1.1rem",  // Increased font size
                 }}
               >
-                {skills.description}
+                {skill.description} {/* Corrected from skills.description */}
               </span>
               {/* Link Section */}
-              {skills.link && (
+              {skill.link && ( /* Corrected from skills.link */
                 <a
-                  href={skills.link}
+                  href={skill.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 text-primary-200 underline"
