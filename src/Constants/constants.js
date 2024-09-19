@@ -107,11 +107,10 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    name: "Programming Tips for Newbies",
+    image: "/projects/progtips.jpg",
+    source_code_link: 'https://www.instagram.com/p/CGhkO-8jl36/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CGhkO-8jl36/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Connect 4',
