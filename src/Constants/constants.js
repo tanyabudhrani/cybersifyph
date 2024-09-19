@@ -60,11 +60,6 @@ import careersImage from '../assets/projects/careers.jpg';
 import hackerImage from '../assets/projects/hacker.jpg';
 import teensImage from '../assets/projects/teens.png';
 import mitoImage from '../assets/projects/mito.png';
-import sevenImage from '..assets/projects/tasuru.png'
-
-// Import images for skills
-// import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
-// import ttcImage from '../assets/skills/ttc.jpg'; // Update with the correct path
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
@@ -274,14 +269,14 @@ const memoji = {
 const skills = [
   {
     id: 'html',
-    title: 'Seven PH',
+    title: '',
     image: sevenImage,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
-    title: 'Teaching Teens to Code',
+    title: '',
     image: "",
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
