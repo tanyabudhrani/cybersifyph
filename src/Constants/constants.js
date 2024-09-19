@@ -253,14 +253,14 @@ const skills = [
   {
     id: 'html',
     title: 'Seven PH',
-    image: '../assets/skills/tasuru.png',
+    image: '../assets/projects/tasuru.png',
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
     title: 'Teaching Teens to Code',
-    image: '../assets/skills/ttc.jpg',
+    image: '../assets/projects/ttc.jpg',
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },
