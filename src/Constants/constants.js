@@ -54,8 +54,8 @@ import coverCamImage from '../assets/projects/covercam.jpg';
 import dorkingImage from '../assets/projects/dorking.jpg';
 import darkWebImage from '../assets/projects/darkweb.jpg';
 import firstProgImage from '../assets/projects/firstprog.jpg';
-import ttc from "../assets/projects/ttc.png"
-import seven from "../assets/projects/tasuru.jpg"
+import ttc from '../assets/projects/ttc.png'
+import seven from '../projects/tasuru.png'
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
@@ -171,7 +171,43 @@ const projects = [
     image: firstProgImage,
     source_code_link: 'https://www.instagram.com/p/CNkKvfOje7h/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CNkKvfOje7h/?utm_source=ig_web_copy_link',
-  }
+  },
+  {
+    name: 'What is a Computer Virus?',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/CN2MTVCD6KS/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CN2MTVCD6KS/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Binary Searching',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/COsROzqjwDP/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/COsROzqjwDP/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'What Language to Learn First?',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/CO-SkGMDuqo/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CO-SkGMDuqo/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Computer Science vs Software Engineering',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/CQGY0jWDATS/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CQGY0jWDATS/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Binary Code',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/CROfU0PDw9O/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CROfU0PDw9O/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Advantages of Learning How to Program',
+    image: firstProgImage,
+    source_code_link: 'https://www.instagram.com/p/CSEjz_xBPBQ/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CSEjz_xBPBQ/?utm_source=ig_web_copy_link',
+  },
 ];
 
 const memoji = {
