@@ -54,7 +54,7 @@ import careersImage from '../assets/projects/careers.jpg';
 import hackerImage from '../assets/projects/hacker.jpg';
 import teensImage from '../assets/projects/teens.png';
 import mitoImage from '../assets/projects/mito.png';
-import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
+// import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
 import ttcImage from '../assets/skills/ttc.jpg'; // Update with the correct path
 
 
