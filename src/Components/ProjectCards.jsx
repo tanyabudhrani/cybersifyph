@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { projects } from "../Constants/constants";
-import { githubIcon } from "../assets";
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
 	return {
