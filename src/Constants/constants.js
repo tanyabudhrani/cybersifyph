@@ -54,6 +54,8 @@ import coverCamImage from '../assets/projects/covercam.jpg';
 import dorkingImage from '../assets/projects/dorking.jpg';
 import darkWebImage from '../assets/projects/darkweb.jpg';
 import firstProgImage from '../assets/projects/firstprog.jpg';
+import ttc from "../assets/projects/ttc.png"
+import seven from "../assets/projects/tasura.jpg"
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
@@ -180,14 +182,16 @@ const skills = [
   {
     id: 'html',
     title: 'Seven PH',
-    icon: htmlIcon,
+    image: seven,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
+    link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
     title: 'Teaching Teans to Code',
-    icon: cssIcon,
+    image: ttc,
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
+    link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },
 ];
 
