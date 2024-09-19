@@ -31,34 +31,39 @@ import {
   raspIcon,
   neoIcon,
   figmaIcon,
+  pawsitivePrototype,
+  memoryGame,
   avatar,
-  progtipsImage,
-  ipAddressesImage,
-  helloWorldImage,
-  terminalImage,
-  scanImage,
-  coverCamImage,
-  dorkingImage,
-  darkWebImage,
-  firstProgImage,
-  virusImage,
-  binaryCodeImage,
-  binarySearchImage,
-  phishingImage,
-  nftsImage,
-  vulnerableImage,
-  careersImage,
-  hackerImage,
-  teensImage,
-  mitoImage,
-  // sevenPhImage,
-  ttcImage,
-  progLanguageImage,
-  csVsSeImage,
-  howToProgramImage,
-  firewallImage
 } from '../assets';
 
+// Import images directly for projects
+import progtipsImage from '../assets/projects/progtips.jpg';
+import ipAddressesImage from '../assets/projects/ipaddresses.jpg';
+import helloWorldImage from '../assets/projects/helloworld.jpg';
+import terminalImage from '../assets/projects/terminal.jpg';
+import scanImage from '../assets/projects/scan.jpg';
+import coverCamImage from '../assets/projects/covercam.jpg';
+import dorkingImage from '../assets/projects/dorking.jpg';
+import darkWebImage from '../assets/projects/darkweb.jpg';
+import firstProgImage from '../assets/projects/firstprog.jpg';
+import virusImage from '../assets/projects/virus.jpg';
+import binarySearchImage from '../assets/projects/bs.png';
+import progLanguageImage from '../assets/projects/proglanguage.jpg';
+import csVsSeImage from '../assets/projects/cs.jpg';
+import binaryCodeImage from '../assets/projects/binary.jpg';
+import howToProgramImage from '../assets/projects/how2program.jpg';
+import firewallImage from '../assets/projects/firewall.jpg';
+import phishingImage from '../assets/projects/phish.jpg';
+import nftsImage from '../assets/projects/nfts.jpg';
+import vulnerableImage from '../assets/projects/vulnerable.jpg';
+import careersImage from '../assets/projects/careers.jpg';
+import hackerImage from '../assets/projects/hacker.jpg';
+import teensImage from '../assets/projects/teens.png';
+import mitoImage from '../assets/projects/mito.png';
+
+// Import images for skills
+// import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
+// import ttcImage from '../assets/skills/ttc.jpg'; // Update with the correct path
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
@@ -80,7 +85,6 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
-
 };
 
 const icons = {
@@ -277,7 +281,7 @@ const skills = [
   {
     id: 'css',
     title: 'Teaching Teens to Code',
-    image: ttcImage,
+    image: "",
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },
