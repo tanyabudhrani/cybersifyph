@@ -44,7 +44,7 @@ import {
   avatar,
 } from '../assets';
 
-// Import images directly
+// Import images directly for projects
 import progtipsImage from '../assets/projects/progtips.jpg';
 import ipAddressesImage from '../assets/projects/ipaddresses.jpg';
 import helloWorldImage from '../assets/projects/helloworld.jpg';
@@ -54,8 +54,24 @@ import coverCamImage from '../assets/projects/covercam.jpg';
 import dorkingImage from '../assets/projects/dorking.jpg';
 import darkWebImage from '../assets/projects/darkweb.jpg';
 import firstProgImage from '../assets/projects/firstprog.jpg';
-import ttc from '../assets/projects/ttc.png'
-import seven from '../projects/tasuru.png'
+import virusImage from '../assets/projects/virus.jpg';
+import binarySearchImage from '../assets/projects/bs.png';
+import progLanguageImage from '../assets/projects/proglanguage.jpg';
+import csVsSeImage from '../assets/projects/cs.jpg';
+import binaryCodeImage from '../assets/projects/binary.jpg';
+import howToProgramImage from '../assets/projects/how2program.jpg';
+import firewallImage from '../assets/projects/firewall.jpg';
+import phishingImage from '../assets/projects/phish.jpg';
+import nftsImage from '../assets/projects/nfts.jpg';
+import vulnerableImage from '../assets/projects/vulnerable.jpg';
+import careersImage from '../assets/projects/careers.jpg';
+import hackerImage from '../assets/projects/hacker.jpg';
+import teensImage from '../assets/projects/teens.png';
+import mitoImage from '../assets/projects/mito.png';
+
+// Import images for skills
+import sevenPhImage from '../assets/skills/seven-ph.jpg'; // Update with the correct path
+import ttcImage from '../assets/skills/ttc.jpg'; // Update with the correct path
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
@@ -161,7 +177,7 @@ const projects = [
     demo_link: 'https://www.instagram.com/p/CLT-RnIDOoR/?utm_source=ig_web_copy_link',
   },
   {
-    name: 'Deep Dive Odyssey Raycasting',
+    name: 'The Dark Web',
     image: darkWebImage,
     source_code_link: 'https://www.instagram.com/p/CMuGFHLDkN8/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CMuGFHLDkN8/?utm_source=ig_web_copy_link',
@@ -174,39 +190,87 @@ const projects = [
   },
   {
     name: 'What is a Computer Virus?',
-    image: firstProgImage,
+    image: virusImage,
     source_code_link: 'https://www.instagram.com/p/CN2MTVCD6KS/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CN2MTVCD6KS/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Binary Searching',
-    image: firstProgImage,
+    image: binarySearchImage,
     source_code_link: 'https://www.instagram.com/p/COsROzqjwDP/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/COsROzqjwDP/?utm_source=ig_web_copy_link',
   },
   {
     name: 'What Language to Learn First?',
-    image: firstProgImage,
+    image: progLanguageImage,
     source_code_link: 'https://www.instagram.com/p/CO-SkGMDuqo/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CO-SkGMDuqo/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Computer Science vs Software Engineering',
-    image: firstProgImage,
+    image: csVsSeImage,
     source_code_link: 'https://www.instagram.com/p/CQGY0jWDATS/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CQGY0jWDATS/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Binary Code',
-    image: firstProgImage,
+    image: binaryCodeImage,
     source_code_link: 'https://www.instagram.com/p/CROfU0PDw9O/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CROfU0PDw9O/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Advantages of Learning How to Program',
-    image: firstProgImage,
+    image: howToProgramImage,
     source_code_link: 'https://www.instagram.com/p/CSEjz_xBPBQ/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CSEjz_xBPBQ/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'The Importance of a Firewall',
+    image: firewallImage,
+    source_code_link: 'https://www.instagram.com/p/CS6o5eHpMEB/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CS6o5eHpMEB/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'The Dangers of a Phishing Attack',
+    image: phishingImage,
+    source_code_link: 'https://www.instagram.com/p/CTwtsqUp3FA/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CTwtsqUp3FA/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Non-Fungible Tokens',
+    image: nftsImage,
+    source_code_link: 'https://www.instagram.com/p/CY1Q2j5pVMa/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CY1Q2j5pVMa/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'How to Protect your Device from Security Vulnerability',
+    image: vulnerableImage,
+    source_code_link: 'https://www.instagram.com/p/CUCuvZup3gS/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CUCuvZup3gS/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Careers in Technology',
+    image: careersImage,
+    source_code_link: 'https://www.instagram.com/p/CZZMwLLpb5c/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CZZMwLLpb5c/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'How to Spot a Hacker',
+    image: hackerImage,
+    source_code_link: 'https://www.instagram.com/p/CWS7RKOpWL2/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CWS7RKOpWL2/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'Technology and Teens',
+    image: teensImage,
+    source_code_link: 'https://www.instagram.com/p/CbFZOXCph_Y/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CbFZOXCph_Y/?utm_source=ig_web_copy_link',
+  },
+  {
+    name: 'The Mitochondria of a Computer',
+    image: mitoImage,
+    source_code_link: 'https://www.instagram.com/p/CbXbZPRpp3K/?utm_source=ig_web_copy_link',
+    demo_link: 'https://www.instagram.com/p/CbXbZPRpp3K/?utm_source=ig_web_copy_link',
   },
 ];
 
@@ -218,14 +282,14 @@ const skills = [
   {
     id: 'html',
     title: 'Seven PH',
-    image: seven,
+    image: sevenPhImage,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
-    title: 'Teaching Teans to Code',
-    image: ttc,
+    title: 'Teaching Teens to Code',
+    image: ttcImage,
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },
