@@ -15,24 +15,24 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  htmlIcon,
-  cssIcon,
-  jsIcon,
-  reactIcon,
-  awsIcon,
-  javaIcon,
-  gitIcon,
-  githubIcon,
-  psqlIcon,
-  eslintIcon,
-  pyIcon,
-  viteIcon,
-  nodeIcon,
-  raspIcon,
-  neoIcon,
-  figmaIcon,
-  pawsitivePrototype,
-  memoryGame,
+  // htmlIcon,
+  // cssIcon,
+  // jsIcon,
+  // reactIcon,
+  // awsIcon,
+  // javaIcon,
+  // gitIcon,
+  // githubIcon,
+  // psqlIcon,
+  // eslintIcon,
+  // pyIcon,
+  // viteIcon,
+  // nodeIcon,
+  // raspIcon,
+  // neoIcon,
+  // figmaIcon,
+  // pawsitivePrototype,
+  // memoryGame,
   avatar,
 } from '../assets';
 
@@ -64,22 +64,22 @@ import mitoImage from '../assets/projects/mito.png';
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
 const media = {
-  htmlIcon,
-  cssIcon,
-  jsIcon,
-  reactIcon,
-  awsIcon,
-  javaIcon,
-  gitIcon,
-  githubIcon,
-  psqlIcon,
-  eslintIcon,
-  pyIcon,
-  viteIcon,
-  nodeIcon,
-  raspIcon,
-  neoIcon,
-  figmaIcon,
+  // htmlIcon,
+  // cssIcon,
+  // jsIcon,
+  // reactIcon,
+  // awsIcon,
+  // javaIcon,
+  // gitIcon,
+  // githubIcon,
+  // psqlIcon,
+  // eslintIcon,
+  // pyIcon,
+  // viteIcon,
+  // nodeIcon,
+  // raspIcon,
+  // neoIcon,
+  // figmaIcon,
   avatar,
 };
 
@@ -281,10 +281,10 @@ const skills = [
   },
 ];
 
-// const markerSvg = `<svg viewBox="-4 0 36 36">
-//     <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
-//     <circle fill="black" cx="14" cy="14" r="7"></circle>
-//   </svg>`;
+const markerSvg = `<svg viewBox="-4 0 36 36">
+    <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
+    <circle fill="black" cx="14" cy="14" r="7"></circle>
+  </svg>`;
 
 export {
   media,
