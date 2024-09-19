@@ -23,7 +23,7 @@ const SkillsCards = () => {
           >
             <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-primary-200">
               <span
-                className="text-xl"
+                className="text-2xl"  // Increased font size
                 style={{
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: "bold",
@@ -32,11 +32,11 @@ const SkillsCards = () => {
                 {skill.title}
               </span>
               <span
-                className="text-center bg-primary-500 text-primary-200 rounded-xl text-sm p-4"
+                className="text-center bg-primary-500 text-primary-200 rounded-xl text-lg p-4"  // Increased font size
                 style={{
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: "600",
-                  fontSize: "0.9rem",
+                  fontSize: "1.1rem",  // Increased font size
                 }}
               >
                 {skill.description}
@@ -51,6 +51,7 @@ const SkillsCards = () => {
                   style={{
                     fontFamily: "Poppins, sans-serif",
                     fontWeight: "500",
+                    fontSize: "1rem",  // Increased font size
                   }}
                 >
                   Learn More
