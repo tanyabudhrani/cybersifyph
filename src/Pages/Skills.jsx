@@ -13,8 +13,14 @@ const Skills = () => {
         </div>
         <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
           <div className="relative">
-            <div className="absolute top-[45px] left-[10px] right-[10px] h-[1px] bg-primary-400"></div>
+            <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
             <MarqueeCards direction="left">
+              <SkillsCards />
+            </MarqueeCards>
+          </div>
+          <div className="relative">
+            <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
+            <MarqueeCards direction="right">
               <SkillsCards />
             </MarqueeCards>
           </div>
@@ -23,6 +29,5 @@ const Skills = () => {
     </div>
   );
 };
-
 
 export default Skills;
