@@ -154,7 +154,7 @@ const ProjectCard = ({
                       href={demo_link}
                       target="_blank"
                   >
-                      See the Demo
+                      See the Post
                   </a>
               </div>
           </motion.div>
@@ -164,7 +164,7 @@ const ProjectCard = ({
 
 const Works = () => {
     return (
-        <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
+        <div className="mt-5 flex flex-wrap justify-center gap-4 text-green-400 w-full">
             {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
