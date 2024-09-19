@@ -1,3 +1,9 @@
+
+
+import MarqueeCards from "../Components/MarqueeCards";
+import SectionTitle from "../Components/SectionTitle";
+import SkillsCards from "../Components/SkillsCards";
+
 const Skills = () => {
   return (
     <div id="skills" className="w-full overflow-hidden-web flex justify-center">
@@ -7,7 +13,7 @@ const Skills = () => {
         </div>
         <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
           <div className="relative">
-            <div className="absolute top-[45px] left-[10px] right-[10px] h-[1px] bg-primary-400"></div>
+            <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
             <MarqueeCards direction="left">
               <SkillsCards />
             </MarqueeCards>
