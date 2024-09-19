@@ -80,12 +80,9 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hello there, I'm so happy you are here! (:",
+    "Cybersifyph is an online educational organization whose goal is to spread internet literacy among the youth with educational posts and projects.",
 
-		"My name is Sara, I'm 21 and a junior computer science student based in Guatemala. I have a strong passion for the technologies related to QA and AI.",
-    "Outside of my regular activities, I'm a painting artist, football enthusiast, chess player, and a dog lover.",
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
-    "You can download my resume here."
+		"Cybersifyph teaches kids about topics that aren't usually taught at in school, such as: penetration testing, IP addresses, security vulnerability, and much more. Our only goal is to increase the number of students interested in taking a technology based career, and get kids excited about the wonderful world of tech. "
   ],
 };
 
@@ -181,115 +178,17 @@ const memoji = {
 const skills = [
   {
     id: 'html',
-    title: 'HTML',
+    title: 'Seven PH',
     icon: htmlIcon,
     description:
-      'I have a strong command of HTML for organizing web pages and generating meaningful content that can be accessed by all users.',
+      'Seven PH developed Project Tasuru as a way to help those in need.',
   },
   {
     id: 'css',
-    title: 'CSS',
+    title: 'Teaching Teans to Code',
     icon: cssIcon,
     description:
-    'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
-  },
-  {
-    id: 'javascript',
-    title: 'JavaScript',
-    icon: jsIcon,
-    description:
-    'I have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.',
-  },
-  {
-    id: 'react',
-    title: 'React',
-    icon: reactIcon,
-    description:
-      'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
-  },
-  {
-    id: 'java',
-    title: 'Java',
-    icon: javaIcon,
-    description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
-  },
-  {
-    id: 'aws',
-    title: 'Amazon Web Services',
-    icon: awsIcon,
-    description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
-  },
-  {
-    id: 'figma',
-    title: 'Figma',
-    icon: figmaIcon,
-    description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
-  },
-  {
-    id: 'git',
-    title: 'Git',
-    icon: gitIcon,
-    description:
-    'I am proficient in Git, managing code changes, collaborating with others, and resolving conflicts effectively.',
-  },
-  {
-    id: 'github',
-    title: 'GitHub',
-    icon: githubIcon,
-    description:
-      'I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.',
-  },
-  {
-    id: 'psql',
-    title: 'Postgresql',
-    icon: psqlIcon,
-    description:
-      'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
-  },
-  {
-    id: 'vite',
-    title: 'Vite',
-    icon: viteIcon,
-    description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  },
-  {
-    id: 'py',
-    title: 'Python',
-    icon: pyIcon,
-    description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
-  },
-  {
-    id: 'node',
-    title: 'Node',
-    icon: nodeIcon,
-    description:
-      'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
-  },
-  {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
-    description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  },
-  {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
-    description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  },
-  {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
-    description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+    'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
   },
 ];
 
