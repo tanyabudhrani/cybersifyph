@@ -14,10 +14,6 @@ import {
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-
-import { PiNumberCircleSeven } from "react-icons/pi";
-import { FaFileCode } from "react-icons/fa";
-
 import {
   htmlIcon,
   cssIcon,
@@ -38,6 +34,8 @@ import {
   pawsitivePrototype,
   memoryGame,
   avatar,
+  seven,
+  tc
 } from '../assets';
 
 // Import images directly for projects
@@ -85,6 +83,8 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  seven,
+  tc
 };
 
 const icons = {
@@ -274,14 +274,14 @@ const skills = [
   {
     id: 'html',
     title: 'SevenPH',
-    icon: PiNumberCircleSeven,
+    icon: seven,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
     title: 'Teaching Teens Code',
-    icon: FaFileCode,
+    icon: tc,
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },
