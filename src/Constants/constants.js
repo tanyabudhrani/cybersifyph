@@ -60,6 +60,7 @@ import careersImage from '../assets/projects/careers.jpg';
 import hackerImage from '../assets/projects/hacker.jpg';
 import teensImage from '../assets/projects/teens.png';
 import mitoImage from '../assets/projects/mito.png';
+import sevenImage from '..assets/projects/tasuru.png'
 
 // Import images for skills
 // import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
@@ -274,7 +275,7 @@ const skills = [
   {
     id: 'html',
     title: 'Seven PH',
-    image: "",
+    image: sevenImage,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },

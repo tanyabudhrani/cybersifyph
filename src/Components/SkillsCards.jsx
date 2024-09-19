@@ -24,7 +24,7 @@ const SkillsCards = () => {
             <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-primary-200">
               <img
                 className="h-[50px] flex justify-center items-center w-[50px] bg-grayscale-25 rounded-[50%] p-1 object-contain"
-                src={skill.icon}
+                src={skill.image}
                 alt={skill.title}
               />
               <span
