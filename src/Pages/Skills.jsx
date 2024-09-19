@@ -6,7 +6,7 @@ import SkillsCards from "../Components/SkillsCards";
 
 const Skills = () => {
   return (
-    <div id="partnerships" className="w-full overflow-hidden-web flex justify-center">
+    <div id="skills" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full min-h-[800px] flex flex-col xl:w-[70%]">
         <div className="w-full">
           <SectionTitle title="Partnerships" />
