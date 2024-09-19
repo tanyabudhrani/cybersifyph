@@ -1,11 +1,11 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
-import { skills } from "../Constants/constants";
+import { partnerships } from "../Constants/constants";
 
 const SkillsCards = () => {
   return (
     <div className="flex">
       <LazyMotion features={domAnimation} strict>
-        {skills.map((skill, index) => (
+        {partnerships.map((skill, index) => (
           <m.div
             initial={{ scale: 0.8 }}
             animate={{
@@ -29,7 +29,7 @@ const SkillsCards = () => {
                   fontWeight: "bold",
                 }}
               >
-                {skill.title}
+                {partnerships.title}
               </span>
               <span
                 className="text-center bg-primary-500 text-primary-200 rounded-xl text-lg p-4"  // Increased font size
@@ -39,12 +39,12 @@ const SkillsCards = () => {
                   fontSize: "1.1rem",  // Increased font size
                 }}
               >
-                {skill.description}
+                {partnerships.description}
               </span>
               {/* Link Section */}
-              {skill.link && (
+              {partnerships.link && (
                 <a
-                  href={skill.link}
+                  href={skpartnershipsill.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 text-primary-200 underline"

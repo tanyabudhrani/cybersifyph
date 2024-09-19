@@ -112,8 +112,8 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'skills',
-    title: 'Skills',
+    id: 'partnerships',
+    title: 'Partnerships',
   },
   {
     id: 'contact',
@@ -266,7 +266,7 @@ const memoji = {
   image: [avatar],
 };
 
-const skills = [
+const partnerships = [
   {
     id: 'html',
     title: 'SevenPH',
@@ -291,7 +291,7 @@ export {
   introduction,
   projects,
   memoji,
-  skills,
+  partnerships,
   markerSvg,
   icons,
 };
