@@ -109,7 +109,7 @@ export const navLinks = [
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Posts',
   },
   {
     id: 'skills',
