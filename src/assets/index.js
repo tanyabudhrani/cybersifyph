@@ -101,7 +101,7 @@ export {
   hackerImage,
   teensImage,
   mitoImage,
-  sevenPhImage,
+  // sevenPhImage,
   ttcImage,
   progLanguageImage,
   csVsSeImage,
