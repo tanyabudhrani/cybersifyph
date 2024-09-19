@@ -44,6 +44,17 @@ import {
   avatar,
 } from '../assets';
 
+// Import images directly
+import progtipsImage from '../assets/projects/progtips.jpg';
+import ipAddressesImage from '../assets/projects/ipaddresses.jpg';
+import helloWorldImage from '../assets/projects/helloworld.jpg';
+import terminalImage from '../assets/projects/terminal.jpg';
+import scanImage from '../assets/projects/scan.jpg';
+import coverCamImage from '../assets/projects/covercam.jpg';
+import dorkingImage from '../assets/projects/dorking.jpg';
+import darkWebImage from '../assets/projects/darkweb.jpg';
+import firstProgImage from '../assets/projects/firstprog.jpg';
+
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
 const media = {
@@ -81,8 +92,7 @@ const icons = {
 const introduction = {
   text: [
     "Cybersifyph is an online educational organization whose goal is to spread internet literacy among the youth with educational posts and projects.",
-
-		"Cybersifyph teaches kids about topics that aren't usually taught at in school, such as: penetration testing, IP addresses, security vulnerability, and much more. Our only goal is to increase the number of students interested in taking a technology based career, and get kids excited about the wonderful world of tech. "
+    "Cybersifyph teaches kids about topics that aren't usually taught at in school, such as: penetration testing, IP addresses, security vulnerability, and much more. Our only goal is to increase the number of students interested in taking a technology based career, and get kids excited about the wonderful world of tech."
   ],
 };
 
@@ -108,55 +118,55 @@ export const navLinks = [
 const projects = [
   {
     name: "Programming Tips for Newbies",
-    image: "cybersifyph/src/assets/projects//progtips.jpg",
+    image: progtipsImage,
     source_code_link: 'https://www.instagram.com/p/CGhkO-8jl36/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CGhkO-8jl36/?utm_source=ig_web_copy_link',
   },
   {
     name: 'All About IP Addresses',
-    image: "cybersifyph/src/assets/projects/ipaddresses.jpg",
+    image: ipAddressesImage,
     source_code_link: 'https://www.instagram.com/p/CHFmg1ODqZp/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CHFmg1ODqZp/?utm_source=ig_web_copy_link',
   },
   {
     name: 'What is Print(Hello, world!)',
-    image: "cybersifyph/src/assets/projects/helloworld.jpg",
+    image: helloWorldImage,
     source_code_link: 'https://www.instagram.com/p/CINuxdBDA9o/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CINuxdBDA9o/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Terminal Commands',
-    image: "cybersifyph/src/assets/projects/terminal.jpg",
+    image: terminalImage,
     source_code_link: 'https://www.instagram.com/p/CIfut8-Dy50/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CIfut8-Dy50/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Hackers Scanning our Network',
-    image: "cybersifyph/src/assets/projects/scan.jpg",
+    image: scanImage,
     source_code_link: 'https://www.instagram.com/p/CJDx4LfD9fQ/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CJDx4LfD9fQ/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Do I Really Need to Cover my Camera',
-    image: "cybersifyph/src/assets/projects/covercam.jpg",
+    image: coverCamImage,
     source_code_link: 'https://www.instagram.com/p/CJVzbEmDFua/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CJVzbEmDFua/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Google Dorking',
-    image: "cybersifyph/src/assets/projects/dorking.jpg",
+    image: dorkingImage,
     source_code_link: 'https://www.instagram.com/p/CLT-RnIDOoR/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CLT-RnIDOoR/?utm_source=ig_web_copy_link',
   },
   {
     name: 'Deep Dive Odyssey Raycasting',
-    image: "cybersifyph/src/assets/projects/darkweb.jpg",
+    image: darkWebImage,
     source_code_link: 'https://www.instagram.com/p/CMuGFHLDkN8/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CMuGFHLDkN8/?utm_source=ig_web_copy_link',
   },
   {
     name: 'World\'s First Computer Programmer',
-    image: "cybersifyph/src/assets/projects/firstprog.jpg",
+    image: firstProgImage,
     source_code_link: 'https://www.instagram.com/p/CNkKvfOje7h/?utm_source=ig_web_copy_link',
     demo_link: 'https://www.instagram.com/p/CNkKvfOje7h/?utm_source=ig_web_copy_link',
   }
@@ -171,15 +181,13 @@ const skills = [
     id: 'html',
     title: 'Seven PH',
     icon: htmlIcon,
-    description:
-      'Seven PH developed Project Tasuru as a way to help those in need.',
+    description: 'Seven PH developed Project Tasuru as a way to help those in need.',
   },
   {
     id: 'css',
     title: 'Teaching Teans to Code',
     icon: cssIcon,
-    description:
-    'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
+    description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
   },
 ];
 
