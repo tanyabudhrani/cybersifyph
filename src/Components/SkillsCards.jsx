@@ -22,10 +22,6 @@ const SkillsCards = () => {
             className="card w-[300px] h-[300px] flex flex-col items-center bg-primary-500 rounded-xl border-4 border-primary-400 cursor-pointer"
           >
             <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-primary-200">
-              <img
-                className="h-[50px] flex justify-center items-center w-[50px] bg-grayscale-25 rounded-[50%] p-1 object-contain"
-                alt={skill.title}
-              />
               <span
                 className="text-xl"
                 style={{
