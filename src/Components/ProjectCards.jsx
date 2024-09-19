@@ -1,11 +1,3 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: ProjectCards.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 19/04/2024
-*/
 
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
@@ -132,18 +124,13 @@ const ProjectCard = ({
                           onClick={() => window.open(source_code_link, "_blank")}
                           className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
                       >
-                          <img
-                              src={githubIcon}
-                              alt="github"
-                              className="w-full h-full object-contain"
-                          />
                       </div>
                   </div>
               </div>
 
               <div className="mt-3">
                   <h3 className="text-white font-bold text-2xl">{name}</h3>
-                  <p className="mt-2 text-secondary text-[14px] leading-snug">
+                  <p className="mt-2 text-secondary-200 text-[14px] leading-snug">
                       {description}
                   </p>
               </div>
