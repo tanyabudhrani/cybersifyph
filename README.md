@@ -1,4 +1,4 @@
-# cybersify 
+# CYBERSIFY 
 Cybersifyph is an online educational organization whose goal is to spread internet literacy among the youth with educational posts and projects. Cybersifyph teaches kids about topics that aren't usually taught at in school, such as: penetration testing, IP addresses, security vulnerability, and much more. Our only goal is to increase the number of students interested in taking a technology based career, and get kids excited about the wonderful world of tech.
 
 <p align="center">
