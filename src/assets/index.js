@@ -21,8 +21,6 @@ import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
-import seven from '.tech/tasuru.png';
-import tc from './tech/ttc.png';
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
@@ -54,6 +52,4 @@ export {
   memoryGame,
   avatar,
   bl33hIcon,
-  seven,
-  tc
 };
