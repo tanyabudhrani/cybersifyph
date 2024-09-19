@@ -80,8 +80,6 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  pawsitivePrototype,
-  memoryGame,
   avatar,
   bl33hIcon,
   progtipsImage,
