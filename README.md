@@ -1,9 +1,9 @@
-# who's bl33h ?
-Welcome to my portfolio repository! This project showcases my skills using React, ESLint, Tailwind, and Vite. It includes a brief introduction about me, my projects, the technologies I've worked with, and my experience. You'll also find a contact form at the bottom and my social media links below it. Feel free to explore and connect with me!
+# cybersify 
+Cybersifyph is an online educational organization whose goal is to spread internet literacy among the youth with educational posts and projects. Cybersifyph teaches kids about topics that aren't usually taught at in school, such as: penetration testing, IP addresses, security vulnerability, and much more. Our only goal is to increase the number of students interested in taking a technology based career, and get kids excited about the wonderful world of tech.
 
 <p align="center">
   <br>
-  <img src="https://i.imgur.com/YjFLrzx.png" alt="wb" width="400">
+  <img src="/assets/cybersify.png" alt="wb" width="400">
   <br>
 </p>
 <p align="center" >
