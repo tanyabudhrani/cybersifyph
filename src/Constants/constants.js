@@ -70,7 +70,7 @@ import teensImage from '../assets/projects/teens.png';
 import mitoImage from '../assets/projects/mito.png';
 
 // Import images for skills
-import sevenPhImage from '../assets/skills/seven-ph.jpg'; // Update with the correct path
+import sevenPhImage from '../assets/skills/tasuru.png'; // Update with the correct path
 import ttcImage from '../assets/skills/ttc.jpg'; // Update with the correct path
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
