@@ -21,7 +21,7 @@ const SkillsCards = () => {
             key={index}
             className="card w-[300px] h-[300px] flex flex-col items-center bg-primary-500 rounded-xl border-4 border-primary-400 cursor-pointer"
           >
-            <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-black">
+            <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-white">
               <span
                 className="text-2xl"  // Increased font size
                 style={{
@@ -32,7 +32,7 @@ const SkillsCards = () => {
                 {skill.title} {/* Corrected from skills.title */}
               </span>
               <span
-                className="text-center bg-primary-500 text-black rounded-xl text-lg p-4"  // Increased font size
+                className="text-center bg-primary-500 text-white rounded-xl text-lg p-4"  // Increased font size
                 style={{
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: "600",
