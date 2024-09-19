@@ -3,7 +3,7 @@ Cybersifyph is an online educational organization whose goal is to spread intern
 
 <p align="center">
   <br>
-  <img src="public/cybersify.png" alt="wb" width="400">
+  <img src="public/cybersify.png" alt="wb" width="700">
   <br>
 </p>
 <p align="center" >
@@ -13,7 +13,7 @@ Cybersifyph is an online educational organization whose goal is to spread intern
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="https://whosbl33h.netlify.app/">Try it out here</a> 
+<a href="https://https://cybersifyph.netlify.app//">Try it out here</a> 
 </p>
 
 ## Features
