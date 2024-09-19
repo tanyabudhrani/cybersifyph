@@ -1,4 +1,5 @@
 
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faX,
@@ -13,6 +14,10 @@ import {
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+
+
+import { PiNumberCircleSeven } from "react-icons/pi";
+import { FaFileCode } from "react-icons/fa";
 
 import {
   htmlIcon,
@@ -269,15 +274,15 @@ const memoji = {
 const skills = [
   {
     id: 'html',
-    title: '',
-    image: sevenImage,
+    title: 'SevenPH',
+    icon: PiNumberCircleSeven,
     description: 'Seven PH developed Project Tasuru as a way to help those in need.',
     link: "https://www.instagram.com/p/CLlxIaOl9q4/?utm_source=ig_web_copy_link"
   },
   {
     id: 'css',
-    title: '',
-    image: "",
+    title: 'Teaching Teens Code',
+    icon: FaFileCode,
     description: 'We partnered up with TTC to discuss whether or not college is imperative for a career in coding.',
     link: "https://www.instagram.com/p/CPiV7Whj5Yt/?utm_source=ig_web_copy_link"
   },

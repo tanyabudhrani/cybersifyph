@@ -18,12 +18,6 @@ const Skills = () => {
               <SkillsCards />
             </MarqueeCards>
           </div>
-          <div className="relative">
-            <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
-            <MarqueeCards direction="right">
-              <SkillsCards />
-            </MarqueeCards>
-          </div>
         </div>
       </div>
     </div>
