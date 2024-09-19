@@ -25,8 +25,8 @@ const Navbar = () => {
           }}
         >
           <img src={bl33hIcon} alt={bl33hIcon} className="w-18 h-9 object-contain" />
-          <p className="text-red-500 text-[18px] font-bold cursor-pointer flex">
-            Your Text Here
+          <p className="text-primary-400 text-[18px] font-bold cursor-pointer flex">
+            Cybersify
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -35,8 +35,8 @@ const Navbar = () => {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-red-500" : "text-blue-500"
-                } hover:text-red-500 text-[24px] font-bold cursor-pointer `}
+                  active === link.title ? "text-primary-400" : "text-primary-400"
+                } hover:text-primary-400 text-[24px] font-bold cursor-pointer `}
                 onClick={() => setActive(link.title)}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
@@ -62,7 +62,7 @@ const Navbar = () => {
                   <li
                     key={link.id}
                     className={`${
-                      active === link.title ? "text-red-500" : "text-blue-500"
+                      active === link.title ? "text-primary-400" : "text-primary-400"
                     } font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={() => {
                       setActive(link.title);
