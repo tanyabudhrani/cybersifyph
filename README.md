@@ -13,7 +13,7 @@ Cybersifyph is an online educational organization whose goal is to spread intern
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="https://https://cybersifyph.netlify.app//">Try it out here</a> 
+<a href="https://cybersifyph.netlify.app/">Try it out here</a> 
 </p>
 
 ## Features
@@ -52,8 +52,9 @@ $ npm run dev
 
 ## Packages
 
-This software uses the following open source packages:
+This software uses the following open-source packages 
 
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
+- https://github.com/bl33h/whosbl33h.git (Sara Echeverria)
